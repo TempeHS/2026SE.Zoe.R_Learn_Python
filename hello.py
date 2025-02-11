@@ -1,3 +1,6 @@
+def hello(to="world"):
+    print("erm what the sigma", to)
+
 # zoe was here
 name = input ("What's your name? ")
 
@@ -8,3 +11,4 @@ name = name.strip().title()
 first, last, what = name.split(" ")
 
 print (f"hello, {first}")
+hello(first)
