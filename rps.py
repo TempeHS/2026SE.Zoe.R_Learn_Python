@@ -6,6 +6,7 @@ def playerchoice():
     print (f"You have chosen: {choice}.")
 
 def computerchoice(): 
-    # computer = 
+    print("im gonna finish this later lolllllll :P")
 
 playerchoice()
+computerchoice()
