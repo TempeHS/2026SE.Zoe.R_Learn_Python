@@ -1,3 +1,5 @@
+#creates a dictionary of all the fruits and calories on the poster/website 
+#that can be later called back to
 fruits = [
     {"fruit": "apple", "calories": "130"},
     {"fruit": "avocado", "calories": "50"},
@@ -22,9 +24,15 @@ fruits = [
 ]
 
 def main():
+    #gets input and converts it to lowercase 
+    #(this one doesnt have to be lowercase, it just has to be whatever case the rest of the
+    #dictionary is in)
     nutrients = input("what fruit? ").lower()
 
+    #for each entry in the the dictionary (which i called fruits)
     for fruit in fruits:
+        #goes through the dictionary and checks if the input matches any entry
+        #if it does, it prints out the calories
         if nutrients == fruit["fruit"]:
             print(f"Calories: {fruit["calories"]}")
 
